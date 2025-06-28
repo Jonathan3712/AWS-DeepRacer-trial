@@ -1,6 +1,9 @@
-🎯 Project Overview
+**🎯 Project Overview**
+
 This repository showcases my journey into Reinforcement Learning through AWS DeepRacer - a gamified platform that teaches RL concepts through autonomous racing. As an aspiring AI/ML Software Engineer, this project demonstrates my ability to design, train, and optimize RL models for real-world applications.
-🧠 What is Reinforcement Learning?
+
+**🧠 What is Reinforcement Learning?**
+
 Unlike supervised learning that relies on labeled datasets, Reinforcement Learning enables models to learn through interaction with an environment. The agent (our race car) learns optimal behaviors by:
 
 Taking actions in an environment
@@ -9,7 +12,7 @@ Learning from mistakes through trial and error
 Continuously improving performance over time
 
 This approach is fundamental to autonomous systems, robotics, and AI decision-making.
-🏁 Technical Implementation
+** 🏁 Technical**
 Model Architecture
 
 Algorithm: Proximal Policy Optimization (PPO)
@@ -25,7 +28,7 @@ Action Space Optimization: Fine-tuned steering and speed control
 Reward Function Engineering: Custom reward logic for optimal racing lines
 Hyperparameter Tuning: Optimized learning rates, batch sizes, and exploration strategies
 
-📊 Training Data & Results
+**📊 Training Data & Results**
 Model Performance Metrics
 Track Name          | Best Lap Time | Success Rate | Training Episodes
 --------------------|---------------|--------------|------------------
@@ -41,7 +44,7 @@ model_weights_final.npy - Final optimized model
 reward_history.npy - Reward progression over training episodes
 action_distribution.npy - Analysis of action space exploration
 
-🎮 Reward Function Strategy
+**🎮 Reward Function Strategy**
 My custom reward function balances multiple objectives:
 pythondef reward_function(params):
     # Racing line optimization
@@ -55,7 +58,7 @@ Progressive Speed Rewards: Higher rewards for maintaining speed on straights
 Racing Line Optimization: Bonus rewards for optimal track positioning
 Stability Penalties: Reduced rewards for erratic steering behavior
 
-📈 Learning Outcomes & Skills Demonstrated
+**📈 Learning Outcomes & Skills Demonstrated**
 Technical Skills
 
 Reinforcement Learning: Hands-on experience with PPO algorithms
@@ -71,7 +74,7 @@ Performance Monitoring: Metrics tracking and model evaluation
 Real-world Testing: Simulation-to-reality transfer
 Data Analysis: Training data interpretation and optimization
 
-🚀 Real-World Applications
+**🚀 Real-World Applications**
 The skills developed through this project directly translate to:
 
 Autonomous Vehicles: Path planning and decision making
@@ -80,7 +83,7 @@ Game AI: Strategic decision making under uncertainty
 Industrial Automation: Optimization of manufacturing processes
 
 
-🔧 Setup & Reproduction
+**🔧 Setup & Reproduction**
 Prerequisites
 bash# Python environment setup
 pip install boto3 numpy matplotlib pandas
@@ -95,13 +98,13 @@ Modify reward function in src/reward_function.py
 Run training pipeline: python src/model_training.py
 Monitor progress through AWS DeepRacer console
 
-📚 Learning Resources
+** 📚 Learning Resources**
 
 AWS DeepRacer Documentation
 Reinforcement Learning: An Introduction
 My Technical Blog Posts - Deep dives into specific challenges
 
-🎯 Future Enhancements
+**🎯 Future Enhancements**
 
  Multi-agent racing scenarios
  Transfer learning across different track types
@@ -109,7 +112,7 @@ My Technical Blog Posts - Deep dives into specific challenges
  Real-time strategy adaptation
  Integration with other AWS AI services
 
-📞 Connect With Me
+**📞 Connect With Me**
 Interested in discussing reinforcement learning, autonomous systems, or AI/ML engineering opportunities?
 
 LinkedIn: https://www.linkedin.com/in/jonathan-katikala/
